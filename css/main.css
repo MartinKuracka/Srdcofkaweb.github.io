@@ -1639,6 +1639,9 @@ body {padding-right: 0px !important;}
   padding-left: 0.4em;
 }
 
+.size3 {
+  font-size: 20px;
+}
 
 
 
@@ -1648,4 +1651,13 @@ body {padding-right: 0px !important;}
 .webmark {
   font-style: italic;
   font-size: 1.2em;
+}
+
+.disp-sides {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col-size-400 {
+  width: 400px;
 }
