@@ -3094,10 +3094,11 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt5 {
 	font-family: Poppins;
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 18px;
 	color: #333333;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	padding: 10px;
 }
 
 .txt6 {
@@ -3400,7 +3401,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .size4 {
-	width: 150px;
+	width: 160px;
 	height: 60px;
 }
 
@@ -3410,22 +3411,22 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .size6 {
-	width: 255px;
+	width: 315px;
 	height: 60px;
 }
 
 .size7 {
-	width: 143px;
+	width: 133px;
 	height: 60px;
 }
 
 .size8 {
-	width: 190px;
+	width: 260px;
 	height: 60px;
 }
 
 .size9 {
-	width: 173px;
+	width: 223px;
 	height: 60px;
 }
 

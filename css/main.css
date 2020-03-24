@@ -995,12 +995,13 @@ input[type="date" i] {
 */
 .btn2 {
   background-color: white;
-  border-radius: 10px;
-  opacity: 0.9;
+  border-radius: 15px;
+  opacity: 0.8;
+  padding: 10px;
 }
 
 .btn2:hover {
-  background-color: #ec1d25;
+  background-color: #F1A769;
   color: white;
 }
 
@@ -1633,6 +1634,7 @@ body {padding-right: 0px !important;}
   overflow: visible;
   width:5rem;
   margin: 1em;
+  opacity: 0.9;
 }
 
 .p-srdce {
@@ -1666,4 +1668,8 @@ body {padding-right: 0px !important;}
   .col-size-400 {
     width: 250px;
   }
+}
+
+.rev-color {
+  background-color: #C1C18D;
 }
