@@ -944,22 +944,22 @@ input[type="date" i] {
 */
 @media (max-width: 768px) {
   .wrap-content-slide1 .tit1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .wrap-content-slide1 .txt1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
 
 @media (max-width: 576px) {
   .wrap-content-slide1 .tit1 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .wrap-content-slide1 .txt1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
@@ -1733,8 +1733,21 @@ body {padding-right: 0px !important;}
     }
 }
 
+.cont-map {
+  width: 80vw;
+  height: auto;
+ }
+
+ .img-center {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 576px) {
   .p-l-40 {
     padding-left: 40px;
+  }
+  .cont-map {
+    width: 90vw;
   }
 }
