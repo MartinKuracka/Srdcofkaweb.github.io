@@ -952,6 +952,7 @@ input[type="date" i] {
   }
 }
 
+
 @media (max-width: 576px) {
   .wrap-content-slide1 .tit1 {
     font-size: 60px;
@@ -1701,4 +1702,39 @@ body {padding-right: 0px !important;}
 
 .rev-color {
   background-color: #C1C18D;
+}
+
+.container-wm {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.fl-d-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+}
+
+@media (max-width: 1000px) {
+    .fl-d-r {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+    .cont-cent-1000 {
+      margin: 0px auto;
+      padding: 0px;
+      justify-content: center;
+      /*text-align: center;*/
+    }
+    .p-b-30 {
+      padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+  .p-l-40 {
+    padding-left: 40px;
+  }
 }
