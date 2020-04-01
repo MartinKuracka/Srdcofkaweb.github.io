@@ -1647,38 +1647,6 @@ body {padding-right: 0px !important;}
 }
 
 
-/* .......gallery.........*/
-
-/*transit {
-  opacity:1;
-  transition-property: opacity;
-}*/
-
-.img-gone {
-  transition: all;
-  transition-duration: 2s;
-  width: 0px;
-  opacity: 0;
-/*  transition-property: opacity;
-  transition-duration: 2s;*/
-
-}
-
-.img-invis {
-  width: 0px;
-  opacity:0;
-}
-
-.img-come {
-  transition: all;
-  transition-duration: 2s;
-  opacity: 1;
-/*  transition-property: opacity;
-  transition-duration: 2s;*/
-
-}
-
-
 /*........footer.........*/
 .webmark {
   font-style: italic;
@@ -1734,7 +1702,7 @@ body {padding-right: 0px !important;}
 }
 
 .cont-map {
-  width: 80vw;
+  width: 70vw;
   height: auto;
  }
 
@@ -1750,4 +1718,8 @@ body {padding-right: 0px !important;}
   .cont-map {
     width: 90vw;
   }
+}
+
+.l-height {
+  line-height: 4em;
 }
