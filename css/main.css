@@ -1183,8 +1183,8 @@ input[type="date" i] {
 
 .wrap-pic-blo2 {
   display: block;
-  width: 50%;  
-  background-position: center center;
+/*  width: 50%;  
+*/  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1195,6 +1195,9 @@ input[type="date" i] {
   min-height: 390px;
 }
 
+.rad-20 {
+  border-radius: 20px;
+}
 /* ------------------------------------ */
 .effect1 {
   background-color: #cf2227;
@@ -1224,8 +1227,8 @@ input[type="date" i] {
 
   .wrap-pic-blo2 {
     width: 100%;
-    height: 390px;
-  }
+/*    height: 390px;
+*/  }
 
   .wrap-text-blo2 {
     width: 100%;
@@ -1258,8 +1261,8 @@ input[type="date" i] {
 
   .wrap-pic-blo2 {
     width: 100%;
-    height: 364px;
-  }
+/*    height: 364px;
+*/  }
 
 }
 
@@ -1647,6 +1650,15 @@ body {padding-right: 0px !important;}
 }
 
 
+/*----main content----*/
+.event-color {
+  background-color: #FAF6D8;
+}
+
+.flex-str {
+  justify-content: center;
+}
+
 /*........footer.........*/
 .webmark {
   font-style: italic;
@@ -1669,7 +1681,7 @@ body {padding-right: 0px !important;}
 }
 
 .rev-color {
-  background-color: #C1C18D;
+  background-color: #FAF6D8;
 }
 
 .container-wm {
