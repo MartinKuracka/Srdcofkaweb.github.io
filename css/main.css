@@ -1659,6 +1659,12 @@ body {padding-right: 0px !important;}
   justify-content: center;
 }
 
+.prod-text {
+  margin: auto 10%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+}
 /*........footer.........*/
 .webmark {
   font-style: italic;
