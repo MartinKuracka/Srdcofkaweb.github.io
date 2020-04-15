@@ -1659,11 +1659,56 @@ body {padding-right: 0px !important;}
   justify-content: center;
 }
 
+.prod-food {
+  background-color: #eae4d8;
+}
+
+.prod-drog {
+  background-color: #d0c4b7;
+}
+
+.prod-coffee {
+  background-color: #1c1412;
+}
+
+.prod-sup {
+  background-color: #8d877b;
+}
+
+.prod-work {
+  background-color: #411f03;
+}
+
+.prod-dinner {
+  background-color: #33211a;
+}
+
 .prod-text {
   margin: auto 10%;
   text-align: center;
   font-weight: 500;
   font-size: 22px;
+}
+
+.prod-txt-clr1 {
+  color: #555252;
+}
+
+.prod-txt-clr2 {
+  color: #B8B0B0;
+}
+
+.prod-txt-clr3 {
+  color: #3A3030;
+}
+
+.prod-pic-50 {
+  width: 50%;
+}
+
+.w-700 {
+  min-width: 700px;
+  overflow: visible;
 }
 /*........footer.........*/
 .webmark {
@@ -1727,6 +1772,27 @@ body {padding-right: 0px !important;}
  .img-center {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 756px) {
+  .prod-pic-50 {
+    width: 100%;
+  }
+  .prod-text {
+    position: absolute;
+    padding: 10%;
+    font-weight: 400;
+  }
+  .prod-txt-clr1 {
+    color: black;
+    font-weight: 500;
+  }
+  .prod-txt-clr2 {
+    color: white;
+  }
+  .prod-txt-clr3 {
+    color: white;
+  }
 }
 
 @media (max-width: 576px) {
