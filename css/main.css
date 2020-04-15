@@ -1705,7 +1705,7 @@ body {padding-right: 0px !important;}
 }
 
 .prod-pic-50 {
-  width: 50%;
+  width: 50vw;
 }
 
 .w-700 {
@@ -1817,8 +1817,6 @@ body {padding-right: 0px !important;}
   }
   .prod-text {
     padding: 10% 5%;
-  }
-  .prod-text {
     font-size: 17px;
   }
 }
