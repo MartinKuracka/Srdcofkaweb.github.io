@@ -1818,6 +1818,9 @@ body {padding-right: 0px !important;}
   .prod-text {
     padding: 10% 5%;
   }
+  .prod-text {
+    font-size: 17px;
+  }
 }
 
 .l-height {
