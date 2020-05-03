@@ -1721,6 +1721,13 @@ body {padding-right: 0px !important;}
   opacity: 0.7;
 }
 
+.map-text {
+  max-width: 500px;
+  text-align: center;
+  margin: 50px auto;
+  font-weight: 700;
+}
+
 /*........footer.........*/
 .webmark {
   font-style: italic;
