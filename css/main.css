@@ -1736,6 +1736,10 @@ body {padding-right: 0px !important;}
   min-width: 250px;
 }
 
+.cont-txt-p-15 {
+  padding: 0px 15px;
+}
+
 /*........footer.........*/
 .webmark {
   font-style: italic;
